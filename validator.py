@@ -13,19 +13,19 @@ def check_exercise_1_1(answer_1, answer_2, answer_3):
     print("Results:")
     
     # Q1: Total entries (149)
-    if _h(answer_1) == "aab3238922bcc25a6f606eb525ffdc56":
+    if _h(answer_1) == "f2217062e9a397a1dca429e7d70bc6ca":
         print("  1. Total entries: Correct")
     else:
         print("  1. Total entries: Incorrect - check df.info() output")
     
     # Q2: Missing values (yes)
-    if _h(answer_2) == "7fa3b767c460b54a2be4d49030b349c7":
+    if _h(answer_2) == "a6105c0a611b41b08f1209506350279e":
         print("  2. Missing values: Correct")
     else:
         print("  2. Missing values: Incorrect - look at Non-Null Count")
     
     # Q3: Data type (object)
-    if _h(answer_3) == "497031794414a552435f90151ac3b54b":
+    if _h(answer_3) == "a8cfde6331bd59eb2ac96f8911c4b666":
         print("  3. Data type: Correct")
     else:
         print("  3. Data type: Incorrect - check Dtype column")
@@ -33,11 +33,11 @@ def check_exercise_1_1(answer_1, answer_2, answer_3):
 def check_assessment_1(blank_1, blank_2, blank_3, blank_4, blank_5):
     """Check Assessment Question 1 - Fill in the blanks"""
     answers = [
-        ("a805c075df7abd3e76cf759d2ae6f095", "Data Cleaning"),
-        ("89a3f3fd13bf6fdabe20fdbf75d06639", "Data Transformation"),
-        ("42ed36f01d597f96eac4b8e20e9e8558", "Ordinal encoding"),
-        ("ffd5eb9a9e4fcec26fbf80dfe73c8aa3", "One-Hot encoding"),
-        ("a3c65c2974b66ae8ae98b997d9d43a37", "coerce parameter")
+        ("4c85b3625c95b8bf313d47934599eef5", "Data Cleaning"),
+        ("3935f8feee087b4547de27296ec777b9", "Data Transformation"),
+        ("281858037f7dcf7ed49271bb92c60526", "Ordinal encoding"),
+        ("27369b3bf4483e8dcfd85ba9a39a947f", "hot"),
+        ("615e65e2e8e3ffbc003c70f624779685", "coerce parameter")
     ]
     
     user_answers = [blank_1, blank_2, blank_3, blank_4, blank_5]
